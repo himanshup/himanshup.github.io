@@ -10,20 +10,6 @@ body {
   background: #efeeef;
 }
 
-.container {
-  height: 100%;
-}
-
-.card {
-  width: 35rem;
-  margin-top: -100px;
-  box-shadow: 0 20px 30px rgba(40, 25, 86, 0.085);
-}
-
-.icon {
-  font-size: 35px;
-}
-
 #github {
   animation-duration: 500ms;
 }
@@ -34,4 +20,18 @@ body {
 
 #email {
   animation-duration: 500ms;
+}
+
+.container {
+  height: 100%;
+}
+
+.card {
+  width: 40rem;
+  margin-top: -100px;
+  box-shadow: 0 20px 30px rgba(40, 25, 86, 0.085);
+}
+
+.icon {
+  font-size: 35px;
 }
