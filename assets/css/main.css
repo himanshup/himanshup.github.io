@@ -10,18 +10,6 @@ body {
   background: #efeeef;
 }
 
-#github {
-  animation-duration: 500ms;
-}
-
-#linkedin {
-  animation-duration: 500ms;
-}
-
-#email {
-  animation-duration: 500ms;
-}
-
 .container {
   height: 100%;
 }
@@ -34,4 +22,5 @@ body {
 
 .icon {
   font-size: 35px;
+  animation-duration: 500ms;
 }
