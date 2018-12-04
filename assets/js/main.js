@@ -37,7 +37,11 @@ $(".card").animateCss("fadeIn", function() {
         .animateCss("fadeInRight ", function() {
           $("#email")
             .toggleClass("invisible")
-            .animateCss("fadeInRight ", function() {});
+            .animateCss("fadeInRight ", function() {
+              $("#resume")
+                .toggleClass("invisible")
+                .animateCss("fadeInRight ", function() {});
+            });
         });
     });
 });
